@@ -11,7 +11,7 @@ if (isset($_POST['generate'])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Membuat QR Code</title>
+    <title>Create QR Code</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -58,8 +58,8 @@ if (isset($_POST['generate'])) {
 </head>
 <body>
     <form method="post">
-        <input type="text" name="text" placeholder="Masukkan teks atau URL" required>
-        <button type="submit" name="generate">Buat QR Code</button>
+        <input type="text" name="text" placeholder="Enter text or URL" required>
+        <button type="submit" name="generate">Generate QR Code</button>
     </form>
     <?php
     if (isset($fileName)) {
